@@ -1,0 +1,95 @@
+/*
+    Layout para Captação de contatos
+    Autor: Vinícius Mendes Pinto
+*/
+
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    background-image: url("imagens/imagemFundo.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+}
+
+.principal {
+  height: 480px;
+}
+
+.page-header {
+  margin-top: 50px;
+}
+
+img#logotipo {
+  padding-top: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  height: 80px;
+}
+
+h1.titulo {
+  color: black;
+  text-align: center;
+  text-shadow: white 2px -2px, white -2px 2px, white 2px 2px, white -2px -2px;
+  height: 60px;
+  width: 550px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.labels {
+  color: black;
+  padding-left: 25px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+}
+
+#formulario {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.botaoConfirmar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  width: 150px;
+  height: 30px;
+  background-image: linear-gradient(to bottom, #76AD0C, #417505);
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+
+
+
