@@ -7,7 +7,7 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     box-sizing: border-box;
-    background-image: #000000 url("imagens/imagemFundo.jpg"); 
+    background-image: url("imagens/imagemFundo.jpg"); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;  
